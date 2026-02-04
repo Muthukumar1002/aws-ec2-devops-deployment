@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Muthu | DevOps Deployment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Arial, sans-serif;
+            background-color: #0f172a;
+            color: #e5e7eb;
+        }
+
+        header {
+            background: #020617;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h2 {
+            margin: 0;
+            color: #38bdf8;
+        }
+
+        nav a {
+            color: #e5e7eb;
+            margin-left: 20px;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        .hero {
+            padding: 80px 20px;
+            text-align: center;
+            background: linear-gradient(135deg, #020617, #0f172a);
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            opacity: 0.9;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 26px;
+            background: #38bdf8;
+            color: #020617;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background: #0ea5e9;
+        }
+
+        section {
+            padding: 60px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #020617;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+        }
+
+        .card h3 {
+            margin-top: 0;
+            color: #38bdf8;
+        }
+
+        footer {
+            background: #020617;
+            text-align: center;
+            padding: 20px;
+            font-size: 13px;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h2>🚀 DevOps Lab</h2>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#stack">Tech Stack</a>
+        <a href="#status">Status</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <h1>AWS EC2 Deployment Successful</h1>
+    <p>This application is deployed on Ubuntu using Nginx</p>
+    <a class="btn" href="#status">View System Status</a>
+</div>
+
+<section id="about">
+    <h2>📌 About This Project</h2>
+    <p>
+        This is a beginner-level DevOps deployment project hosted on AWS EC2.
+        It demonstrates Linux server handling, web server configuration,
+        and live deployment using Nginx.
+    </p>
+</section>
+
+<section id="stack">
+    <h2>🧰 Technology Stack</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Operating System</h3>
+            <p>Ubuntu 22.04 LTS</p>
+        </div>
+        <div class="card">
+            <h3>Web Server</h3>
+            <p>Nginx</p>
+        </div>
+        <div class="card">
+            <h3>Cloud Platform</h3>
+            <p>AWS EC2 (Free Tier)</p>
+        </div>
+        <div class="card">
+            <h3>Access Method</h3>
+            <p>SSH (Key-based)</p>
+        </div>
+    </div>
+</section>
+
+<section id="status">
+    <h2>📊 System Status</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Server</h3>
+

@@ -11,7 +11,7 @@ learning theory.
 - Uses Nginx as the web server
 
 ## What I actually worked on
-- Launched an EC2 instance (free tier)
+- Launched an EC2 instance
 - Connected to the server using SSH keys from WSL Ubuntu
 - Configured security group rules for SSH and HTTP
 - Installed and started Nginx
